@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color: white;
+}
+h1 h2 h3 h4 h5 h6{
+    color: white;
+}
+h1{
+    color: white;
+}
+ul li{
+    color: white;
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: left 32px;
+    padding-right: 32px ;
+}
+nav ul{
+    display: flex;
+    padding-top: 18px;
+    cursor: pointer;
+    color: white;
+    padding-right: 15px;
+}
+nav ul li{
+    padding: 10px;
+    padding-right: 27px;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 8px;
+}
+nav li:hover{
+    color: yellow;
+}
+.links{
+display: flex;
+}
+.iicon{
+    size: 100px;
+    display: flex;
+    fill: white;
+    margin: 10px;
+}
+.iicon{
+    padding-right: 13px;
+    fill: white;
+    width: 28px;
+    cursor: pointer;
+}
+.iicon:hover{
+color: yellow;
+}
+.main-image{
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    max-width: 100%;
+}
+.margin{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.p1{
+    display: flex;
+    margin-top: 65px;
+    margin-bottom: 20px
+
+}
+.p1{
+    text-align: justify;
+    text-justify: inter-word;
+    width: 90%;
+    margin-left: 35px;
+}
+.p1>h1{
+    display: inline;
+}
